@@ -53,7 +53,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 0px 0px;
 }
 
 .bg-center,
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.png.webp");
     background-size: 280px 280px;
 }
 
@@ -361,6 +361,59 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+/* ajout d'un titre */
+/* remplacement des textes images par des textes*/
+.remplacement_titre{
+    max-width: 613px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+/*citation*/
+/* remplacement des textes images par des textes*/
+.remplacement_citation{
+    max-width: 562px;
+    color: rgb(90, 90, 90);
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+}
+/* auteur de la citation*/
+.remplacement_auteur{
+    color: rgb(90, 90, 90);
+    font-style: normal;
+}
+.remplacement_texte{
+    max-width: 476px;
+    font-size: 22px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+/* icones réseaux sociaux */
+figure{
+    padding-bottom: 40px;
+}
+figure .social .fa{
+  color:  black;
+}
+figure .social .fa:hover{
+    color: rgb(30, 30, 30)!important;
+}
+/* footer navigation */
+footer nav{
+    color:black;
+}
+/* footer navigation lien */
+footer nav a{
+    color:rgb(55, 55, 55)!important;
+}
+/* modification couleur H1/texte dans le header page contact */
+.colors{
+    color: rgb(80, 48, 48) !important;
+}
+/* fin de correction */
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -677,7 +730,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -692,10 +745,10 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    /*color: #FFFFFF!important; */
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
 }
 
@@ -710,7 +763,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -736,11 +789,11 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: 0 auto 4px auto;
 }
 
 .portfolio-row {
@@ -775,17 +828,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: rgb(30, 30, 30)!important;
 }
 
 .ltc-white {
@@ -873,8 +926,9 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*syntaxe de variable modifiée*/
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -884,8 +938,9 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*syntaxe de variable modifiée et modification égale à au dessus*/
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -922,6 +977,7 @@ h4 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        list-style: none;
     }
     .nav > li {
         margin-top: 0;
