@@ -590,13 +590,21 @@ a[data-lightbox] {
     text-align: center;
 }
 
+.images {
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    margin-left: 110px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
