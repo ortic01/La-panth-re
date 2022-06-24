@@ -42,6 +42,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 30px;
 }
 
 .bloc-lg {
@@ -53,7 +54,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 0px 0px;
+    padding: 20px 50px;
 }
 
 .bg-center,
@@ -399,7 +400,7 @@ footer nav a{
 }
 /* modification couleur H1/texte dans le header page contact */
 .colors{
-    color: rgb(80, 48, 48) !important;
+    color: #000000 !important;
 }
 
 /* fin de correction */
@@ -558,7 +559,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -727,7 +728,11 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+
 }
 
 .tight-width-whitespace {
@@ -745,15 +750,31 @@ p {
     /*color: #FFFFFF!important; */
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 700;
 }
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto auto auto; 
+    padding-top: 5px;    
 }
-
+@media (max-width: 767px) {
+    .social{
+    display: flex;
+    gap: 75px;
+    max-width: 488px;
+    padding-top: 5px;
+    }
+}
+@media (max-width: 508px) {
+    .social{
+    display: flex;
+    gap: 54px;
+    max-width: 377px;
+    padding-top: 5px;
+    }
+}
 
 h2 {
     font-size: 22px;
@@ -1092,5 +1113,14 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+.btn-d{
+    color: #FFFFFF!important;
+}
+@media (max-width: 500px) {
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
