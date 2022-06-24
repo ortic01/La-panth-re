@@ -370,26 +370,14 @@ a:hover {
     font-size: 22px;
 }
 /*citation*/
-/* remplacement des textes images par des textes*/
-.remplacement_citation{
-    max-width: 562px;
-    color: rgb(90, 90, 90);
+.citation{
+    font-size: 18px;
+    max-width: 51rem;
+    margin: auto;
+}
+.citation>span{
+    font-weight: bold;
     font-style: italic;
-    font-size: 20px;
-    font-weight: 300;
-    margin: 0 auto;
-    padding: 0;
-}
-/* auteur de la citation*/
-.remplacement_auteur{
-    color: rgb(90, 90, 90);
-    font-style: normal;
-}
-.remplacement_texte{
-    max-width: 476px;
-    font-size: 22px;
-    margin: 0 auto;
-    padding-top: 10px;
 }
 /* icones réseaux sociaux */
 figure{
@@ -739,7 +727,7 @@ a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -765,6 +753,7 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+
 
 h2 {
     font-size: 22px;
