@@ -593,7 +593,7 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: 110px;
+    margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -890,13 +890,18 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("./img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation_1.webp");
 }
-
+@media (max-width: 768px) {
+    .bg-banniere {
+        background-image: url("https://ik.imagekit.io/8sslwjbn9/agence-la-panthere_-n8LT7igm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1656192957803");
+        background-position:bottom;
+}
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
