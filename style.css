@@ -809,6 +809,9 @@ h4 {
 .white {
     color: white!important;
 }
+.orange {
+    color: #f3976c;
+}
 
 .portfolio-thumb {
     margin: 0 auto 4px auto;

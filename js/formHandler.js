@@ -40,9 +40,9 @@ $(function()
 		    		cache: false,
 		    		success: function() // Success
 		 			{  
-						if($form.is('[success-msg]')) // Show Success Message
+						if($form.is('[data-success-msg]')) // Show Success Message
 						{
-							$form.append("<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('success-msg')+"</strong></div></div>");
+							$form.append("<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('data-success-msg')+"</strong></div></div>");
 						}
 						else // Re-Direct
 						{
