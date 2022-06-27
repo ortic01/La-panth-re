@@ -92,10 +92,9 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper-min.webp");
+    background: url("img/texture-paper-min1.webp");
     background-size: 280px 280px;
 }
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -381,9 +380,7 @@ a:hover {
     font-style: italic;
 }
 /* icones réseaux sociaux */
-figure{
-    padding-bottom: 40px;
-}
+
 figure .social .fa{
   color:  black;
 }
@@ -703,6 +700,8 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    
+    
 }
 
 .container {
@@ -808,7 +807,7 @@ h4 {
 }
 
 .white {
-    color: black!important;
+    color: white!important;
 }
 
 .portfolio-thumb {
@@ -1123,4 +1122,8 @@ h4 {
         margin-right: 0px;
         margin-left: 0px;
     }
+}
+.blacks {
+    color: #333333!important;
+    
 }
