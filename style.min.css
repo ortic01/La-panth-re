@@ -374,6 +374,11 @@ a:hover {
     max-width: 51rem;
     margin: auto;
 }
+.citation-auteur {
+    font-style: italic;
+    font-size: 18px;
+    padding-top: 10px;
+}
 
 /* icones réseaux sociaux */
 
@@ -473,7 +478,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 30px;
-    margin-bottom: -13px;
+    margin-bottom: 30px;
 }
 
 .mg-lg {
@@ -694,10 +699,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
-    
-    
+    font-weight: 400;  
+    color: #575757; 
 }
 
 .container {
@@ -723,9 +726,8 @@ a {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    padding-top: 40px;
 
 }
 
@@ -751,25 +753,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto; 
-    padding-top: 5px;    
+    margin-top: 3px;    
 }
-@media (max-width: 767px) {
-    .social{
-    display: flex;
-    gap: 75px;
-    max-width: 488px;
-    padding-top: 5px;
-    }
-}
-@media (max-width: 508px) {
-    .social{
-    display: flex;
-    gap: 54px;
-    max-width: 377px;
-    padding-top: 5px;
-    }
-}
-
 h2 {
     font-size: 32px;
     line-height: 1.4em;
@@ -777,7 +762,7 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -804,9 +789,10 @@ h4 {
 
 .white {
     color: white!important;
+    font-size: 20px;
 }
-.orange {
-    color: #f3976c;
+.black {
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -930,7 +916,7 @@ h4 {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1449px) {
     .container {
         width: 100%;
     }
@@ -1116,16 +1102,45 @@ h4 {
 .btn-d{
     color: #FFFFFF!important;
 }
-@media (max-width: 500px) {
-    .row {
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-}
 .blacks {
     color: #333333!important;
     
 }
 .titre {
     font-size: 26px;
+}
+.partner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+.partner-a {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+@media (max-width: 767px) {
+    .partner-a {
+        padding: 0 5px;
+       
+    }
+}
+.partner-title {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+}
+.meeting {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+}
+.design {
+    font-size: 16px;
+    margin: 20px auto 0 auto;
 }

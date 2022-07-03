@@ -22,12 +22,12 @@
 
 	<link rel="preload" href="./img/texture-paper-min.webp" as ="image" >
 	<link rel="preload" href="./img/agence-la-panthere-min.webp" as ="image" >
-	<link rel="preload" href="style.css" as="style">
+	<link rel="preload" href="style.min.css" as="style">
 	<link rel="preload" href="./css/font-awesome.css" as="style">
 	<link rel="preload" href="./css/et-line.css" as="style">
 	<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" as="style">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
@@ -153,7 +153,8 @@
 					<span>"L'agence La Panthère est une excellente agence web !
 					Les web designers ont réussi à capturer l'essence de
 					notre entreprise et à l'intégrer à notre site. 
-					Cela nous a aidé à doubler nos ventes en ligne à Lyon."</span> <br>
+					Cela nous a aidé à doubler nos ventes en ligne à Lyon."</span> <br></p>
+					<p class="citation-auteur">
 					Maxime Guibard, PDG de À vos fourchettes
 				</p>
 			</div>
@@ -171,8 +172,11 @@
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</p>
 				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="white bold-link" href="page2.html">Contactez notre équipe</a><br>
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. 
 				</p>
+				<div class="text-center">
+					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine cta-hero" aria-label="lien vers la page contact">Contact</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -255,41 +259,48 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center blacks">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="partner-title">Partenaires</p>
+						<div class="partner">
+							<div class="partner-a"><a class="partner-a" href="voiture.com" aria-label="lien vers le site partenaire voiture.com">Voiture</a></div>
+							<div class="partner-a"><a class="partner-a" href="pizza.com" aria-label="lien vers le site partenaire pizza.com">Pizza</a></div>
+							<div class="partner-a"><a class="partner-a" href="matoiture.com" aria-label="lien vers le site partenaire matoiture.com">Ma toiture</a></div>
+							<div class="partner-a"><a class="partner-a" href="immobilierseo.com" aria-label="lien vers le site partenaire immobilerseo.com">Immobilier seo</a></div>
+						</div>		
+					</div>
+				</div>
+				<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+					<div class="container bloc-sm">
+						<div class="row">
+							<div class="col-sm-12">
+						<figure class="row row-no-gutters social">
+							<p class="meeting">Retrouvez-nous</p>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://twitter.com/?lang=fr" aria-label="suivez-nous sur Twitter"><span class="fa fa-twitter icon-md"></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://www.facebook.com/" aria-label="suivez-nous sur Facebook"><span class="fa fa-facebook icon-md"></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://dribbble.com/" aria-label="suivez-nous sur Dribble"><span class="fa fa-dribbble icon-md"></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://www.instagram.com/" aria-label="suivez-nous sur Instagram"><span class="fa fa-instagram icon-md"></span></a>
+								</div>
+							</div>
+						</figure>
+				<p class="text-center black design">
 					Agence La Panthère - Agence web basée à Lyon.<br>
 				</p>
-
-				<!--image et lien réseaux sociaux-->
-				<figure class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center socoal-mobile">
-							<a aria-label="lien twitter" class="social" href="https://twitter.com/La_Pantère_agence_web_Paris"><span class="fa fa-twitter icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center socoal-mobile">
-							<a aria-label="lien facebook" class="social" href="https://fr-fr.facebook.com/LaPantèreagencewebParis/"><span class="fa fa-facebook icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center socoal-mobile">
-							<a aria-label="lien dribbble" class="social" href="https://dribbble.com/tags/La_Pantère_agence_web_Paris"><span class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center socoal-mobile">
-							<a aria-label="lien instagram" class="social" href="https://www.instagram.com/LaPantèreagencewebParis/?hl=fr"><span class="fa fa-instagram icon-md"></span></a>
-						</div>
-					</div>
-				</figure>
-			
-				<!--navigation vers les liens de footer-->
-				<nav class="row">
-					<div class="col-sm-4">		
-					</div>
-					
-				</nav>
-
+			</div>
 			</div>
 		</div>
 	</div>
