@@ -42,7 +42,6 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 30px;
 }
 
 .bloc-lg {
@@ -367,7 +366,7 @@ a:hover {
 .remplacement_titre{
     max-width: 613px;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 18px;
 }
 /*citation*/
 .citation{
@@ -375,10 +374,7 @@ a:hover {
     max-width: 51rem;
     margin: auto;
 }
-.citation>span{
-    font-weight: bold;
-    font-style: italic;
-}
+
 /* icones réseaux sociaux */
 
 figure .social .fa{
@@ -476,8 +472,8 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: -13px;
 }
 
 .mg-lg {
@@ -727,8 +723,7 @@ a {
 }
 
 p {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 20px;
     text-align: center;
     padding-top: 40px;
 
@@ -776,8 +771,9 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 32px;
     line-height: 1.4em;
+    font-weight: 700;
 }
 
 h3 {
@@ -1129,4 +1125,7 @@ h4 {
 .blacks {
     color: #333333!important;
     
+}
+.titre {
+    font-size: 26px;
 }
