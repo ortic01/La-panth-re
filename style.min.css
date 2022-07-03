@@ -916,7 +916,7 @@ h4 {
     }
 }
 
-@media (max-width: 1449px) {
+@media (max-width: 2000px) {
     .container {
         width: 100%;
     }
